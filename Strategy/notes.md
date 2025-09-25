@@ -42,7 +42,7 @@ The Strategy Pattern allows selecting an algorithm's behavior at runtime, making
     - `setStrategy()` allows switching strategies at runtime.
     - `calculateShippingCost(Order order)` calculates shipping using the currently set strategy.
 
-- **Main**  
+- **FitnessAppObserverDemo**  
   Demonstrates creating an order and applying different shipping strategies.
 
 ---
@@ -53,7 +53,7 @@ The Strategy Pattern allows selecting an algorithm's behavior at runtime, making
    ```bash
    javac *.java
    
-2. Run the Main class:
+2. Run the FitnessAppObserverDemo class:
 
  ```bash
-    java Main
+    java FitnessAppObserverDemo
